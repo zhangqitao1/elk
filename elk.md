@@ -1,10 +1,10 @@
 安装 使用docker-compose
 ======================
 
+```
 #docker-compose.yml
 #docker-compose up -d
 
-```
 version: '3'
 services:
 
