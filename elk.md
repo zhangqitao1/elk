@@ -4,6 +4,7 @@
 #docker-compose.yml
 #docker-compose up -d
 
+```
 version: '3'
 services:
 
@@ -32,7 +33,7 @@ services:
       
 es地址：http://127.0.0.1:9200/    
 kibana：http://localhost:5601/
-
+```
 
 添加数据
 ==============
