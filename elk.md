@@ -107,3 +107,13 @@ sql> select * from events;
 
 sql>
 ```
+
+join
+========
+
+```
+sql> select a.ip from  kibana_sample_data_logs a   join
+> (select ip,min(timestamp) min_time from kibana_sample_data_logs group by 1) b on a.ip =b.ip and a.timestamp =b.min_time;
+Bad request [line 1:48: Queries with JOIN are not yet supported]
+
+```
